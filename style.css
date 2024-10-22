@@ -1,0 +1,46 @@
+* {
+    font-family: "Comic Sans MS";
+    color: #005000;
+}
+
+div.page {
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+}
+
+div.instruction {
+    float:left;
+    justify-content: left;
+    align-items: left;
+    width: 33%;
+}
+div.game {
+    float:left;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+div.tree {
+    float:right;
+    justify-content: center;
+    align-items: center;
+}
+
+#apple {
+    cursor: pointer;
+}
+
+button {
+    background-color: #eeffee;
+    cursor: pointer;
+}
+
+hr.mainrule {
+    border: 2px solid #005000;
+}
+
+.page {
+    margin: 5px;
+}
